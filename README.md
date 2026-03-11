@@ -50,7 +50,7 @@ The increased velocity AI creates can inflate workloads and lead to burnout. Set
 
 ---
 
-## Our AI setup
+## Our AI workflow
 
 ### Tools
 
