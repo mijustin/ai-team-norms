@@ -4,20 +4,26 @@ _A forkable set of norms for software development teams using AI tools. Fork it,
 
 ---
 
-## Does this feature need to exist?
+## We build what the strategy demands
 
-With LLMs, it's easy to prompt a feature into existence. _This doesn't mean we should_. Now, more than ever, we need to fight feature bloat and feature creep. 
+LLMs make it easy for anyone on the team to prompt a feature into existence. Left unchecked, it will result in [feature creep](https://en.wikipedia.org/wiki/Feature_creep), where the product becomes increasingly complex, bloated, and cluttered.
 
-Before we build anything, we ask: does this need to exist? We need to be crystal clear about what users want, and the experience we're creating for them.
+> "[In the age of AI] we have to ruthlessly say no to things that seem legitimately neat but aren't core." – [Michael Feldstein](https://x.com/msfeldstein/status/2031448481311895624)
 
-On our team, our direction is set by:
+Here's how we decide "what gets built" on our team. 
+
+Overall direction is set by:
 - `Name`: company strategy
 - `Name`: product strategy
 - `Name`: engineering and architecture
 
-> "[In the age of AI] we have to ruthlessly say no to things that seem legitimately neat but aren't core." – [Michael Feldstein](https://x.com/msfeldstein/status/2031448481311895624)
+It's their job to maintain a clear product roadmap, focused on our most critical milestones.
 
-Don't make decisions about "what to build" on your own. Reach out to `Name` if you need guidance.
+Don't make decisions about "what to build" on your own. Reach out to `Name` if you have suggestions or need guidance.
+
+## Not all ideas are worth building 
+
+
 
 ## All code has a human owner
 
@@ -29,9 +35,13 @@ Every Pull Request has a human owner and a human reviewer.
 
 Peer review is not optional. Automated testing must gate all production deployments.
 
+## Spend more time cleaning things up
+
+> "LLMs keep pulling us to ship the next feature but there's 100x more value in fixing what we have improving our process of how we build things." – [Dax Raad](https://x.com/thdxr/status/2031377117007454421)
+
 ## Slow down
 
-The increased velocity AI creates can inflate workloads and lead to burnout. Set limits. Take breaks. Slow down, think deeply, and delay your gratification.
+The increased velocity AI creates can inflate workloads and lead to burnout. Set limits. Take breaks. Slow down. Think deeply.
 
 ---
 
@@ -39,3 +49,4 @@ The increased velocity AI creates can inflate workloads and lead to burnout. Set
 
 - **Dax Raad** ([@thdxr](https://x.com/thdxr)), of OpenCode, [whose post](https://x.com/thdxr/status/2031377117007454421) inspired the creation of this document.
 - **Ben Werdmuller** for his article [Good Vibes, Bad Vendors](https://werd.io/good-vibes-bad-vendors/), which articulated the skills shift, the importance of engineers being central to the process, and the risks of burnout, security, and quality degradation.
+- **Michael Timbs**'s article [Code Quality in the Age of Coding Agents](https://michaeltimbs.me/blog/code-quality-in-the-age-of-coding-agents/) is a good reference.
