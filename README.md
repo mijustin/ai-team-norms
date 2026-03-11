@@ -23,7 +23,10 @@ Don't make decisions about "what to build" on your own. Reach out to `Name` if y
 
 ## Not all ideas are worth building 
 
-
+[is this section needed - something like " Every addition has to
+  be maintained, documented, tested, and supported. Before an idea becomes a
+  ticket, someone should be able to clearly articulate the user problem it
+  solves — not just that it's neat, or that it was easy to prototype."]
 
 ## All code has a human owner
 
